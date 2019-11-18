@@ -36,14 +36,14 @@ sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/g' .zshrc
 ## Putting it all together:
 Without ssh
 ```
-sudo apt install git python3-distutils zsh fonts-powerline
+sudo apt install git python3-distutils zsh fonts-powerline vim
 sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 cd ~
 sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/g' .zshrc
 ```
 With ssh:
 ```
-sudo apt install git python3-distutils zsh openssh-server
+sudo apt install git python3-distutils zsh openssh-server vim
 sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
