@@ -18,14 +18,33 @@ You'll also need these for python venv:
 sudo apt install python3-distutils
 ```
 
-## For Easier install:
+## install zsh/ohmyzsh:
+```
+sudo apt install zsh
+```
+ohmyzsh
+```
+sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+### Agnoster theme (optional)
+```
+sudo apt-get install fonts-powerline
+cd ~
+sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/g' .zshrc
+```
+
+## Putting it all together:
 Without ssh
 ```
-sudo apt install git python3-distutils
+sudo apt install git python3-distutils zsh fonts-powerline
+sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+cd ~
+sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/g' .zshrc
 ```
 With ssh:
 ```
-sudo apt install git python3-distutils openssh-server
+sudo apt install git python3-distutils zsh openssh-server
+sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 ## Install cuda
