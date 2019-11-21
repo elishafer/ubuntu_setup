@@ -37,7 +37,7 @@ sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/g' .zshrc
 Version 1
 ```
 sudo apt update
-sudo apt install git python3-distutils zsh fonts-powerline vim
+sudo apt install git python3-distutils zsh fonts-powerline vim build-essential
 sudo snap install pycharm-professional --classic
 sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 cd ~
@@ -46,7 +46,7 @@ sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/g' .zshrc
 Version 2
 ```
 sudo apt update
-sudo apt install git python3-distutils zsh openssh-server vim
+sudo apt install git python3-distutils zsh openssh-server vim build-essential
 sudo snap install pycharm-community --classic
 sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
