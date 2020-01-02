@@ -65,7 +65,7 @@ sudo apt-get update
 sudo apt-get -y install cuda
 ```
 
-For Ubuntu 18.04 on x86_64:
+For Ubuntu 16.04 on x86_64:
 ```
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-ubuntu1604.pin
 sudo mv cuda-ubuntu1604.pin /etc/apt/preferences.d/cuda-repository-pin-600
