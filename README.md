@@ -75,3 +75,9 @@ sudo apt-key add /var/cuda-repo-10-1-local-10.1.243-418.87.00/7fa2af80.pub
 sudo apt-get update
 sudo apt-get -y install cuda
 ```
+# Troubleshooting
+If the ethernet adapter doesn't work for some reason do the following: attach an old usb ethernet/wifi adapter, update the software.
+Next, run the following commands:
+```
+sudo apt install linux-firmware linux-generic-hwe-18.04
+```
