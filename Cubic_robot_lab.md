@@ -24,7 +24,7 @@ sudo apt install ros-melodic-desktop-full
 ```
 apt install ros-melodic-libfranka ros-melodic-franka-ros
 ```
-#### RT Kernel Install - Doesn't work. Install after install
+#### RT Kernel Install - Doesn't work. Install after installing Ubuntu
 ```
 apt-get install build-essential bc curl ca-certificates fakeroot gnupg2 libssl-dev lsb-release libelf-dev bison flex
 ```
