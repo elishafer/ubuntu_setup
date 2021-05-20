@@ -69,4 +69,16 @@ apt-get install ros-melodic-realsense2-camera
 ```
 sudo apt-key adv --keyserver keys.gnupg.net --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
 ```
+### Redis
+```
+wget http://download.redis.io/redis-stable.tar.gz
+tar xvzf redis-stable.tar.gz
+cd redis-stable
+make -j12
+make test
+make install
+```
+FYI, can also install via apt, but the version is old
+```
+sudo apt install redis-server
 ```
