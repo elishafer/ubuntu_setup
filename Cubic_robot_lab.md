@@ -20,6 +20,16 @@ sudo apt update
 sudo apt install ros-melodic-desktop-full
 ```
 
+### Additional ROS stuff
+
+```
+apt-get install python-rosdep ros-melodic-panda-moveit-config python-catkin-tools ros-melodic-moveit
+apt install ros-melodic-robot-controllers ros-melodic-position-controllers
+apt install ros-melodic-ros-control ros-melodic-ros-controllers
+apt install ros-melodic-rospy-message-converter
+apt install python-numba
+```
+
 ### Franka Emika Panda
 ```
 apt install ros-melodic-libfranka ros-melodic-franka-ros
