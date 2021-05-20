@@ -1,10 +1,23 @@
-# Create thing for cubic
+# Create custom ISO
 
-What do we need? We want to create an iso for the setup of the robot
+This will take you through the steps needed to create a custom ISO for Franka Panda robot and intel RealSense.
 
 ## Cubic (Custom Ubuntu ISO Creator)
 
-This program takes an existing ISO and lets you customise it through a terminal.
+This program takes an existing ISO and lets you customise it through a terminal. To install Cubic:
+
+```
+sudo apt-add-repository ppa:cubic-wizard/release
+sudo apt install cubic
+```
+
+Next download the Ubuntu ISO that you want to customise (e.g. Ubunutu 18.04 from [here](https://releases.ubuntu.com/18.04/).
+
+You can check out a rough guide in this [Ubuntu Answers page](https://askubuntu.com/questions/741753/how-to-use-cubic-to-create-a-custom-ubuntu-live-cd-image)
+
+The following is for when you get to teh terminal section of the customisation in Cubic.
+
+### General install
 
 ```
 sudo apt update
