@@ -51,6 +51,15 @@ sudo snap install pycharm-community --classic
 sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
+## Install python 3.9
+```
+sudo apt update 
+sudo apt install software-properties-common 
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.9-full python3.9-dev
+```
+
 ## Install cuda
 Check out instructions [here](https://developer.nvidia.com/cuda-downloads)
 
