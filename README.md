@@ -18,6 +18,11 @@ You'll also need these for python venv and development:
 sudo apt install python3-distutils python3-dev python3-setuptools python3-pip python3-venv libssl-dev libffi-dev build-essential 
 ```
 
+And screen, tmux or byuobi:
+```
+sudo apt install byobu screen
+```
+
 ## install zsh/ohmyzsh:
 ```
 sudo apt install zsh
@@ -37,7 +42,7 @@ sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/g' .zshrc
 Version 1
 ```
 sudo apt update
-sudo apt install git python3-distutils python3-dev python3-setuptools python3-pip python3-venv libssl-dev libffi-dev zsh fonts-powerline vim build-essential
+sudo apt install git python3-distutils python3-dev python3-setuptools python3-pip python3-venv libssl-dev libffi-dev zsh fonts-powerline vim build-essential byobu screen
 sudo snap install pycharm-professional --classic
 sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 cd ~
@@ -46,7 +51,7 @@ sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/g' .zshrc
 Version 2
 ```
 sudo apt update
-sudo apt install git python3-distutils python3-dev python3-setuptools python3-pip libssl-dev libffi-dev zsh openssh-server vim build-essential
+sudo apt install git python3-distutils python3-dev python3-setuptools python3-pip libssl-dev libffi-dev zsh openssh-server vim build-essential byobu screen
 sudo snap install pycharm-community --classic
 sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
