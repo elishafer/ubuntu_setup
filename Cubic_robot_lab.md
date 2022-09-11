@@ -24,6 +24,14 @@ sudo apt update
 sudo apt install git python3-distutils python3-dev python3-setuptools python3-pip python3-venv libssl-dev libffi-dev zsh fonts-powerline vim build-essential
 sudo snap install pycharm-professional --classic
 ```
+ Add Universe and Multiverse
+ ```
+add-apt-repository universe
+add-apt-repository multiverse
+
+ ```
+ otherwise you may get an Error: `The following packages have unmet dependencies` `E: Unable to correct problems, you have held broken packages.`
+ 
 
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
